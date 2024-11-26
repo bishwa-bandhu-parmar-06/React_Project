@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #edf6f9;
+    text-decoration: none;
+}
+
+nav {
+    height: 4rem;
+    width: 100%;
+    background-color: #023e8a;
+    color: #edf6f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #edf6f9;
+    // background-color: red;
+}
+// .mainc {
+//     height: 60px;
+//     width: 60px;
+//     border-radius: 50%;
+//     border: 0.2rem solid #edf6f9;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.first {
+    animation: topdown 0.6s ease-in 0.3s infinite alternate-reverse;
+}
+@keyframes topdown {
+    to {
+        transform: translateY(10px);
+    }
+}
+
+.second {
+    animation: topdown2 0.6s ease-in 0.4s infinite alternate-reverse;
+}
+@keyframes topdown2 {
+    to {
+        transform: translateY(10px);
+    }
+}
+
+main {
+    width: 30%;
+    height: 100%;
+    font-size: 1.3rem;
+    // background-color: green;
+    display: flex;
+    color: #edf6f9;
+    justify-content: space-around ;
+    align-items: center;
+}
+main {
+    animation: topdown1 0.8s ease-in 0.1s  alternate-reverse;
+}
+
+@keyframes topdown1 {
+    to {
+        transform: translateY(-20px);
+    }
+}

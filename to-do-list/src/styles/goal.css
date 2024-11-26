@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.task{
+    height: 6rem;
+    width: 70%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 2rem;
+    /* padding: 10px; */
+    font-size: 1.5rem;
+    border: 2px solid #03045e;
+    border-radius: 5px;
+    
+}
+.task .text {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.task .text .title {
+    width: 100%;
+    height: 40%;
+    color: black;
+    border: 1px Solid black;
+    margin: 0.4rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.task .text .description {
+    width: 100%;
+    height: 50%;
+    color: black;
+    border: 1px Solid black;
+    margin: 0 0 0.4rem 0.4rem;
+    border-radius: 5px;
+    text-align: justify;
+}
+.edit {
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: black;
+}
+.edit button {
+    color: black;
+    height: 2rem;
+    width: 3rem;
+}
+.edit button:hover {
+    cursor: pointer;
+}
