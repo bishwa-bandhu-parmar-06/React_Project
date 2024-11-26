@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", serif;
+    // font-family: "Itim", serif;
+    box-sizing: border-box;
+}
+.header {
+    height: 3.5rem;
+    width: 100%;
+    background-color: #181515ee;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    > .logo {
+        color: #f5f5f5;
+        font-family: "Itim",serif;
+        margin-left: 30px;
+        color: #d62828;
+        cursor: pointer;
+    }
+
+    > .menu {
+        width: 40%;
+        // background-color: red;
+        font-family: "roboto";
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        color: #f5f5f5;
+        margin-left: 6rem;
+        > a {
+            color: #f5f5f5;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+    }
+    
+    > .searchicon{
+        font-size: 1.2rem;
+        color: whitesmoke;
+        margin-right: 40px;
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+        &:hover{
+            color: #e0e1dd;
+        }
+    }
+} 
